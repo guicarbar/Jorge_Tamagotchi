@@ -52,5 +52,8 @@ public class Core {
                 System.out.println("Opção invalida!");
             }
         } while (system);
+
+        // fecha o scanner
+        sc.close();
     }
 }
