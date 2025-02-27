@@ -2,7 +2,7 @@
 package Tamagotchi.resorces;
 
 public class JorgeFace {
-    public static String jorgeFace() {
+    public static String mainFace() {
         return  "+----------+\n" +
                 "|          |\n" +
                 "|  O    O  |\n" +

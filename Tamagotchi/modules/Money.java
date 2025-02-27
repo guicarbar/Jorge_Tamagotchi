@@ -1,3 +1,4 @@
+// package
 package Tamagotchi.modules;
 
 public class Money {
@@ -7,15 +8,15 @@ public class Money {
     //getter money
     public static double getWallet() {return wallet;}
 
-
+    // functions
     // add money
-    public static addMoney(double cash) {
+    public static void addMoney(double cash) {
         wallet += cash;
         System.out.println("Foi adcionado a sua carteira: RS" + cash);
     }
 
     // remove money
-    public static removeMoney(double cash) {
+    public static void removeMoney(double cash) {
         wallet -= cash;
         System.out.println("Foi removido de sua carteira: RS" + cash);
     }
