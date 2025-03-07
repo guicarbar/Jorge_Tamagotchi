@@ -2,9 +2,9 @@
 import java.util.Scanner;
 
 //import of resorces
-import static Tamagotchi.resorces.JorgeFace.*;
+import static Tamagotchi.resorces.JorgeFace.happyFace;
 import static Tamagotchi.resorces.TextResorces.*;
-import static Tamagotchi.resorces.Others.*;
+import static Tamagotchi.resorces.GeneralFuncs.*;
 
 
 public class Core {
@@ -17,7 +17,7 @@ public class Core {
         // start btn
         boolean reload = true;
         do {
-            System.out.println("Press ENTER para começar!");
+            System.out.println(happyFace() + "\n\nPress ENTER para começar!");
             String inputStart = sc.nextLine();
 
             // start analaser

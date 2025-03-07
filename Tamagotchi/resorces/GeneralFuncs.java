@@ -1,6 +1,10 @@
 package Tamagotchi.resorces;
 
-public class Others {
+// import
+import static Tamagotchi.modules.StatusJorge.*;
+
+
+public class GeneralFuncs {
     // verifica se é ou nn inteiro
     public static boolean isInteger(String numberTest) {
         try {
@@ -26,7 +30,7 @@ public class Others {
 
                 break;
             case 5:
-
+                System.out.println(getStatus());
                 break;
             default:
                 System.out.println("Opção invalida! Apenas dentro das opçoes disponiveis.");
